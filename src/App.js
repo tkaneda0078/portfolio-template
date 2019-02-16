@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from './template/Header';
+import Footer from './template/Footer';
 
 class App extends Component {
   render() {
     return(
       <div className='app'>
-
         {/* header */}
-        <header className='header'>
-          <h1 className='header-title'>Portfolio</h1>
-          <nav className='header-nav'>
-            <a className='header-nav-item' href='#about'>About</a>
-            <a className='header-nav-item' href='#works'>Works</a>
-          </nav>
-        </header>
+        <Header />
 
         {/* profile */}
         <div className='me'>
@@ -50,9 +44,7 @@ class App extends Component {
         </section>
 
         {/* footer */}
-        <footer className='footer'>
-          Copyright &copy; samle. All right All Rights reserved.
-        </footer>
+        <Footer />
 
       </div>
     );
