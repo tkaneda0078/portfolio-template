@@ -5,20 +5,20 @@ import './App.css';
 class App extends Component {
   render() {
     return(
-      <div className='App'>
+      <div className='app'>
 
         {/* header */}
         <header className='header'>
           <h1 className='header-title'>Portfolio</h1>
-          <nav className='headerNav'>
-            <a className='headerNav-item' href='#about'>About</a>
-            <a className='headerNav-item' href='#works'>Works</a>
+          <nav className='header-nav'>
+            <a className='header-nav-item' href='#about'>About</a>
+            <a className='header-nav-item' href='#works'>Works</a>
           </nav>
         </header>
 
         {/* profile */}
         <div className='me'>
-          <h1 className='me-name'>payapaya</h1>
+          <h1 className='me-title'>payapaya</h1>
           <p className='me-description'>Web Engineer</p>
         </div>
 
@@ -50,7 +50,7 @@ class App extends Component {
         </section>
 
         {/* footer */}
-        <footer>
+        <footer className='footer'>
           Copyright &copy; samle. All right All Rights reserved.
         </footer>
 
