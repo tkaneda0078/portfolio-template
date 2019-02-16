@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Header from './template/Header';
 import Footer from './template/Footer';
 
+import Work from './Work';
+
 class App extends Component {
   render() {
     return(
@@ -27,20 +29,7 @@ class App extends Component {
         {/* works */}
         <section className='section' id='works'>
           <h2 className='section-title'></h2>
-          <ul>
-            <li className='work-item'>
-              <img className='work-item-img' src='https://dummyimage.com/600x300/eee/ccc' />
-            </li>
-            <h3 className='work-item-category'>2018 - react</h3>
-            <h3 className='work-item-title'>sample1</h3>
-          </ul>
-          <ul>
-            <li className='work-item'>
-              <img className='work-item-img' src='https://dummyimage.com/600x300/eee/ccc' />
-            </li>
-            <h3 className='work-item-category'>2019 - react</h3>
-            <h3 className='work-item-title'>sample2</h3>
-          </ul>
+          <Work />
         </section>
 
         {/* footer */}
