@@ -7,7 +7,7 @@ import Work from './Work';
 
 class App extends Component {
   render() {
-    return(
+    return (
       <div className='app'>
         {/* header */}
         <Header />
